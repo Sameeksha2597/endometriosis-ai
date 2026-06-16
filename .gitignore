@@ -216,3 +216,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Python
+venv/
+__pycache__/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/raw/
+
+
+# Model artifacts
+models/
+
+# MLflow
+mlruns/
