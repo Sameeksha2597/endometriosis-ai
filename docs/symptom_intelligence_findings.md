@@ -20,6 +20,27 @@
 - Cluster 1:334
 - Cluster 2:305
 
+## Patient State Clustering
+
+K-Means clustering (k=3) identified three distinct symptom states:
+
+### Cluster 0: Low Symptom Burden
+- Good physical condition (7.15/10)
+- Good emotional condition (7.15/10)
+- Minimal bleeding
+- Mostly outside menstrual phase
+
+### Cluster 1: Chronic Symptom Burden
+- Poor physical condition (4.41/10)
+- Poor emotional condition (4.57/10)
+- Low menstrual activity
+- Suggests persistent symptom burden independent of menstruation
+
+### Cluster 2: Menstrual Flare State
+- Active menstruation
+- Highest bleeding scores
+- Reduced physical and emotional wellbeing
+
 ## Future Work
 
 - Symptom forecasting
