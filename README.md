@@ -134,3 +134,32 @@ Planned:
 ## Disclaimer
 
 This project is intended for educational and research purposes only and is not a medical device or diagnostic tool.
+
+## Symptom Intelligence
+
+Using the KI-Endolist longitudinal dataset:
+
+- 34 patients
+- 5,112 daily observations
+- Patient state discovery via K-Means clustering
+- Symptom forecasting using Random Forest Regressors
+
+### Patient States
+
+- Stable State
+- Symptom Flare State
+- Menstrual State
+
+### Forecasting Results
+
+Target:
+- Tomorrow's Lower Back Pain
+
+V1:
+- R² = 0.176
+
+V2 (Lag Features):
+- R² = 0.358
+
+Key Finding:
+Pain history and menstrual cycle position are strong predictors of future symptom severity.
