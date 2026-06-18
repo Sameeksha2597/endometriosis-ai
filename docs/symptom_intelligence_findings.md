@@ -46,3 +46,13 @@ K-Means clustering (k=3) identified three distinct symptom states:
 - Symptom forecasting
 - Flare-up prediction
 - Personalized recommendations
+
+Patient state transitions revealed strong persistence.
+
+Cluster 0 (Stable Days) remained stable 87.0% of the time.
+
+Cluster 1 (Bad Symptom Days) persisted 70.4% of the time.
+
+Cluster 2 (Period Flare Days) persisted 79.4% of the time.
+
+Direct transitions between Stable Days and Period Flare Days were rare (<5%), suggesting that the discovered states represent meaningful physiological conditions rather than random clustering artifacts.
