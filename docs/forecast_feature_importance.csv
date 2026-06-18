@@ -1,0 +1,11 @@
+Feature,Importance
+Cycle day,0.20482442976785084
+"Period (0-no, 1-yes)",0.0076649182846770655
+"Bleeding (0-no bleeding, 4-heaviest bleeding)",0.03970339305224449
+"General emotional condition (1-bad, 10-amazing)",0.08867473897362035
+"General physical condition (1-bad, 10-amazing)",0.09790771052905647
+"Lower back pain (0-no pain, 4-worst pain)",0.29508789292960835
+Pain_Lag_1,0.04173343833881316
+Pain_Lag_2,0.041564391398505984
+Pain_Lag_3,0.07017899633666021
+Pain_Rolling_3,0.11266009038896302
