@@ -345,3 +345,29 @@ The project successfully transformed raw longitudinal symptom records into a pat
 4. Predicting future patient health states with 80.95% accuracy.
 
 These findings suggest that longitudinal state-based modeling offers a promising approach for understanding and predicting endometriosis symptom trajectories.
+
+
+## Module 3: Medical Imaging Intelligence (GLENDA / ENID)
+
+### Dataset
+
+- 1022 laparoscopic images
+- Endometriosis: 533
+- No Endometriosis: 489
+
+### Model
+
+- ResNet50 Transfer Learning
+- PyTorch
+
+### Results
+
+- Validation Accuracy: 99.35%
+- Test Accuracy: 95.45%
+- Precision: 95%
+- Recall: 95%
+- F1 Score: 95%
+
+### Explainability
+
+Grad-CAM analysis demonstrated that model attention focused on localized tissue regions associated with abnormal pelvic structures, providing interpretable visual explanations for predictions.
