@@ -11,8 +11,6 @@ Endometriosis affects approximately 10% of women of reproductive age and often e
 This project explores how Artificial Intelligence can support earlier identification and understanding of endometriosis through three complementary data modalities:
 
 
-![Patient State Transitions](docs/figures/state_transition_matrix.png)
-
 ```mermaid
 flowchart TB
 
