@@ -232,6 +232,7 @@ data/raw/
 models/
 
 # MLflow
+mlflow.db
 mlruns/
 
 data/external/
